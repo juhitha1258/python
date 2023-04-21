@@ -1,0 +1,5 @@
+p=int(input("enter principal"))
+r=int(input("enter rate"))
+t=int(input("enter number of periods:"))
+ci=p*(pow((1+r/100),t))
+print("compound intrest:{}".format(ci))
